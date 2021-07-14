@@ -11,7 +11,7 @@ import (
 
 var dbPointer *sql.DB
 
-//Инициалиизация базы данных
+//Инициализация базы данных
 func initDataBase(name string) (*sql.DB, error) {
 	database, connectionError := sql.Open("sqlite3", name)
 	if connectionError != nil {
