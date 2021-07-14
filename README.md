@@ -40,6 +40,12 @@ $ curl --request POST \
     
   {"url":"long-url-here"}
 ```
+## Стек
+
+* Go
+* SQLite
+* Docker
+
 ## Запуск
 
 С помощью Docker:
